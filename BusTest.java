@@ -23,5 +23,10 @@ public class BusTest {
    assertEquals(47, number);
  }
 
+@Test
+public void passengersStartEmpty(){
+assertEquals(0, bus.personCount());
+  
+}
 
 }
