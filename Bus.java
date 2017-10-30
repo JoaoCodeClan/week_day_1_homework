@@ -6,5 +6,8 @@ class Bus{
     this.number = number;
     this.passengers = new Person[3];
   }
-
+ public int getNumber(){
+   return this.number;
+ }
+ 
 }

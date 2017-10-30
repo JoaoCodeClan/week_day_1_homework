@@ -16,5 +16,12 @@ public class BusTest {
 
  }
 
+ @Test
+ public void hasNumber(){
+
+   int number = bus.getNumber();
+   assertEquals(47, number);
+ }
+
 
 }
