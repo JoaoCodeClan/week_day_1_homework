@@ -20,4 +20,16 @@ class Bus{
     return count;
   }
 
+  public void take(Person person){
+    if(busIsFull()){
+      return;
+    }
+    int personCount =personCount();
+    passengers[personCount]= person;
+  }
+
+  public boolean busIsFull(){
+    return personCount() == passengers.length;
+  }
+
 }
